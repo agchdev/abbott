@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5f5 ;
+}
+
+/*BANNER*/
+
+.text-xxl{
+    font-size: 10rem;
+}
+
+.w-p{
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .text-xxl{
+        font-size: 9rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .text-xxl{
+        font-size: 6rem;
+    }
+    
+}
+
+.min-h-80vh{
+    min-height: 80vh;
+}
+.glow{
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.418));
+}
+.btn-banner{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    background-color:#009ada;
+    color: white;
+    text-transform: uppercase;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    transition: all 0.5s ease;
+}
+
+.btn-banner:hover{
+    background-color:rgb(219, 219, 219);
+    color: black ;
+}
+
+.curve{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+.pb-10 {
+    padding-bottom: 0;
+}
+
+/*CARDS*/
+
+.pos{
+    bottom: -2rem;
+    position: relative !important;
+}
+
+@media screen and (min-width: 1110px) {
+    .pos{
+        position: absolute !important;
+    }
+    .pb-10 {
+        padding-bottom: 12rem;
+    }
+}
+
+.cardBanner{
+    background-color: white;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.26));
+    padding-right: 0 !important;
+    padding-left: 0 !important; 
+}
+
+/*NOTICIAS*/
+#qs{
+    margin-top: 20rem;
+    font-size: 5rem;
+}
+
+.pNotis{
+    font-size: 1rem;
+}
+
+.contenedorNotis{
+    background-color:#74d5ff;
+    width: 30%;
+    margin: auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgb(180, 180, 180);
+}
